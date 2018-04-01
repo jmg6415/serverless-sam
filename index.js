@@ -31,7 +31,7 @@ exports.handler = (event, context, callback) => {
         }
     });
 }
-
+/*
 function emitLambdaAge() {
     var now = moment();
     var lambdaAnnouncement = moment('2014-11-04');
@@ -39,4 +39,4 @@ function emitLambdaAge() {
     var daysOld = now.diff(lambdaAnnouncement, 'days');
 
     console.log('Lambda is ' + daysOld + ' days old!');
-}
+}*/
