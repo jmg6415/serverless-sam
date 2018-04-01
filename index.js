@@ -5,7 +5,7 @@ exports.handler = (event, context, callback) => {
 
     var originURL = process.env.ORIGIN_URL || '*';
 
-    emitLambdaAge();
+//    emitLambdaAge();
 
     // This variable can be updated and checked in to your repository 
     // to update the number of SAM squirrels on the screen.
