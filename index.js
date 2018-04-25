@@ -8,7 +8,7 @@ exports.handler = (event, context, callback) => {
    // var totalSAMs = 23;
     
     
-    var speed = 65;
+    var speed = 35;
 
     callback(null, {
         "statusCode": 200,
