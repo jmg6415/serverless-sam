@@ -5,21 +5,11 @@ exports.handler = (event, context, callback) => {
 
     var originURL = process.env.ORIGIN_URL || '*';
 
-//    emitLambdaAge();
+   // var totalSAMs = 23;
+    
+    
+    var speed = 65;
 
-    // This variable can be updated and checked in to your repository 
-    // to update the number of SAM squirrels on the screen.
-    var totalSAMs = 23;
-
-    // Or you can update your Lambda function's environment variable.
-//    var samMultiplier = process.env.SAM_MULTIPLIER || 1;
-
-//    var totalSAMs = samCount * samMultiplier;
-/*
-    console.log('The number of SAMs to show: ' + samCount);
-    console.log('Multiplier to apply to SAMs: ' + samMultiplier);
-    console.log('Total number of SAMs to show: ' + totalSAMs);
-*/
     callback(null, {
         "statusCode": 200,
         "body": totalSAMs,
